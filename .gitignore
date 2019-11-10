@@ -1,0 +1,7 @@
+.vscode
+/predictitenv
+*.csv
+.DS_Store
+/output
+__pycache__/predictit.cpython-37.pyc
+/__pycache__/utils.cpython-37.pyc
