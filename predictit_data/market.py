@@ -37,7 +37,7 @@ class Market(Predictit):
         else:
             return False
 
-    def get_market_by_regex(self, regex, search_parent=True, search_contracts=True):
+    def get_markets_by_regex(self, regex, search_parent=True, search_contracts=True):
         markets = self._get_market_by_function(
             self._regex_function, 
             regex=regex, 
@@ -55,7 +55,7 @@ class Market(Predictit):
         else:
             return False
 
-    def get_market_that_contains(self, x, search_parent=True, search_contracts=True, ignore_case=True):
+    def get_markets_that_contain(self, x, search_parent=True, search_contracts=True, ignore_case=True):
         markets = self._get_market_by_function(
             self._contains_function, 
             search_parent=search_parent, 
