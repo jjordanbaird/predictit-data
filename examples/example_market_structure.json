@@ -1,0 +1,71 @@
+{
+    "id": 2721,
+    "name": "Which party will win the 2020 U.S. presidential election?",
+    "shortName": "Which party wins the Presidency in 2020?",
+    "image": "https://az620379.vo.msecnd.net/images/Markets/66c1cd46-cf5d-48a7-82ca-f6b11031e0ed.png",
+    "url": "https://www.predictit.org/markets/detail/2721/Which-party-will-win-the-2020-US-presidential-election",
+    "contracts": [
+        {
+            "id": 4390,
+            "dateEnd": "N/A",
+            "image": "https://az620379.vo.msecnd.net/images/Contracts/small_dc2c8290-c5d5-4561-8c1a-31762c3972bb.png",
+            "name": "Democratic",
+            "shortName": "Democratic",
+            "status": "Open",
+            "lastTradePrice": 0.56,
+            "bestBuyYesCost": 0.56,
+            "bestBuyNoCost": 0.46,
+            "bestSellYesCost": 0.54,
+            "bestSellNoCost": 0.44,
+            "lastClosePrice": 0.55,
+            "displayOrder": 0
+        },
+        {
+            "id": 4389,
+            "dateEnd": "N/A",
+            "image": "https://az620379.vo.msecnd.net/images/Contracts/small_2482e38e-80aa-4ff0-b1e2-9c29a0f100bc.png",
+            "name": "Republican",
+            "shortName": "Republican",
+            "status": "Open",
+            "lastTradePrice": 0.48,
+            "bestBuyYesCost": 0.48,
+            "bestBuyNoCost": 0.53,
+            "bestSellYesCost": 0.47,
+            "bestSellNoCost": 0.52,
+            "lastClosePrice": 0.48,
+            "displayOrder": 0
+        },
+        {
+            "id": 4388,
+            "dateEnd": "N/A",
+            "image": "https://az620379.vo.msecnd.net/images/Contracts/small_9d46f92f-fc2d-406a-ade9-8cf2eb41e64e.png",
+            "name": "Libertarian",
+            "shortName": "Libertarian",
+            "status": "Open",
+            "lastTradePrice": 0.02,
+            "bestBuyYesCost": 0.03,
+            "bestBuyNoCost": 0.98,
+            "bestSellYesCost": 0.02,
+            "bestSellNoCost": 0.97,
+            "lastClosePrice": 0.03,
+            "displayOrder": 0
+        },
+        {
+            "id": 4391,
+            "dateEnd": "N/A",
+            "image": "https://az620379.vo.msecnd.net/images/Contracts/small_5a27f11b-6e7e-4dd6-9d6b-48dafd96b436.png",
+            "name": "Green",
+            "shortName": "Green",
+            "status": "Open",
+            "lastTradePrice": 0.02,
+            "bestBuyYesCost": 0.03,
+            "bestBuyNoCost": 0.98,
+            "bestSellYesCost": 0.02,
+            "bestSellNoCost": 0.97,
+            "lastClosePrice": 0.03,
+            "displayOrder": 0
+        }
+    ],
+    "timeStamp": "2019-11-12T21:23:42.1052091",
+    "status": "Open"
+}
