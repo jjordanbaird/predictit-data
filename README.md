@@ -26,4 +26,12 @@ or<br/>
 `m.list_parent_markets`: Returns `{id: name}` for every available parent market<br/>
 `m.list_sub_markets`: Returns `{id: name}` for every available sub market<br/>
 
+# Market data structure
+Market data is structured as a dictionary. [See Example.](https://github.com/jjordanbaird/predictit-data/blob/master/examples/example_market_structure.json)
+
+Notice that there can be a number of "sub markets" in a given "parent market". <br/>
+In this example there are 4 sub markets, each with a unique `id` for a given parent market, that has its own unique `id`.<br/>
+Each sub market has pricing data associated with it; note that no parent market will have pricing data associated with it.
+
+# Notes
 This wrapper enforces an ask I received from support@predictit.org that the api be called no more than once every 60 seconds. (Note that Predictit only updates the api endpoint once every 60 seconds, so calling it more often than that would be wasteful anyway.)
