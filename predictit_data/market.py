@@ -1,5 +1,5 @@
 import re
-from predictit import Predictit
+from .predictit import Predictit
 
 class Market(Predictit):
 

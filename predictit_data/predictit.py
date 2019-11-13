@@ -1,7 +1,5 @@
-import csv
 import requests 
 import time
-from utils import confirm_dir
 
 class Predictit():
     def __init__(self):
